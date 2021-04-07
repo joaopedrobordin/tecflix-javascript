@@ -1,8 +1,14 @@
-let filmes = ["soul" , "florest gunp" , "de volta para o futuro 1","pepapy o retorno"]
-console.log(filmes);
-console.log(filmes.length);
 
-let quantidadesDeFilmes = 3;
-while(quantidadesDeFilmes > 0)
-{console.log(filmes[quantidadesDeFilmes]);
-quantidadesDeFilmes --;}
+
+
+let filmes = ["soul" , "de-volta-para-o-futuro", "forrest-gump", "pepa-pig-o-retorno"];
+
+
+for(let i = 0; i < filmes.length; i++){
+    console.log(filmes[i]);
+}
+
+
+
+
+
